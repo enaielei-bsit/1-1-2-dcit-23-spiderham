@@ -1,24 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.enaielei.spiderham;
-
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
-/**
- *
- * @author enaielei
- */
-public class Main extends JPanel {
+package amolatspiderham;
+import javax.swing.*;
+import java.awt.*;
+public class AMOLATSpiderHam extends JPanel {
+    
     public static int xsize=500, ysize=700, xoff=0, yoff=10;
     
     public static void main(String[] args) {
-        Main panel = new Main();
+        AMOLATSpiderHam panel = new AMOLATSpiderHam();
         JFrame window = new JFrame("SPIDER-HAM | Nommel Isanar Lavapie Amolat - BSIT 1-1");
         window.setContentPane(panel);
         window.setSize(xsize, ysize);
@@ -542,10 +530,10 @@ public class Main extends JPanel {
         g.drawLine(230+xoff, 375+yoff, 220+xoff, 370+yoff); g.drawLine((xsize-230)+xoff, 375+yoff, (xsize-220)+xoff, 370+yoff);
         g.drawLine(230+xoff, 380+yoff, 227+xoff, 378+yoff); g.drawLine((xsize-230)+xoff, 380+yoff, (xsize-227)+xoff, 378+yoff);
         
-        g.drawLine(216+xoff, 404+yoff, 210+xoff, 408+yoff); g.drawLine((xsize-216)+xoff, 404+yoff, (xsize-210)+xoff, 408+yoff);
-        g.drawLine(206+xoff, 438+yoff, 202+xoff, 442+yoff); g.drawLine((xsize-206)+xoff, 438+yoff, (xsize-202)+xoff, 442+yoff);
-        g.drawLine(205+xoff, 470+yoff, 202+xoff, 470+yoff); g.drawLine((xsize-205)+xoff, 470+yoff, (xsize-202)+xoff, 470+yoff);
-        g.drawLine(212+xoff, 495+yoff, 206+xoff, 492+yoff); g.drawLine((xsize-212)+xoff, 495+yoff, (xsize-206)+xoff, 492+yoff);
+        g.drawLine(216+xoff, 404+yoff, 208+xoff, 408+yoff); g.drawLine((xsize-216)+xoff, 404+yoff, (xsize-208)+xoff, 408+yoff);
+        g.drawLine(206+xoff, 438+yoff, 200+xoff, 442+yoff); g.drawLine((xsize-206)+xoff, 438+yoff, (xsize-200)+xoff, 442+yoff);
+        g.drawLine(205+xoff, 470+yoff, 200+xoff, 470+yoff); g.drawLine((xsize-205)+xoff, 470+yoff, (xsize-200)+xoff, 470+yoff);
+        g.drawLine(212+xoff, 495+yoff, 204+xoff, 492+yoff); g.drawLine((xsize-212)+xoff, 495+yoff, (xsize-204)+xoff, 492+yoff);
         
         g.drawLine(195+xoff, 218+yoff, 193+xoff, 230+yoff); g.drawLine((xsize-195)+xoff, 218+yoff, (xsize-193)+xoff, 230+yoff);
         g.drawLine(220+xoff, 250+yoff, 217+xoff, 260+yoff); g.drawLine((xsize-220)+xoff, 250+yoff, (xsize-217)+xoff, 260+yoff);
